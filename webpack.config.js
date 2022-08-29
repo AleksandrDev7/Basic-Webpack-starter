@@ -8,7 +8,7 @@ const jsLoaders = () => {
         loader: 'babel-loader',
     }]
     if (isDev) {
-        loaders.push('eslint-loader')
+        loaders.push('eslint-webpack-plugin')
     }
 
     return loaders
